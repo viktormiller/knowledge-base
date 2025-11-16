@@ -47,7 +47,7 @@
 
     [:octicons-arrow-right-24: Go to DevOps](devops/index.md)
 
--   :material-vim: **Vim**
+-   :material-nvim: **Vim**
 
     ---
 
@@ -56,14 +56,6 @@
     [:octicons-arrow-right-24: Go to Vim](vim/index.md)
 
 </div>
-
-## 📝 Recent Updates
-
-| Date | Topic | Description |
-|------|-------|-------------|
-| 2024-01-XX | Docker Networking | Bridge vs Host Mode |
-| 2024-01-XX | Git Rebase | Interactive Rebase Tutorial |
-| 2024-01-XX | kubectl | Port Forwarding Examples |
 
 ## 🎯 Frequently Used
 
@@ -74,6 +66,7 @@ docker run -d --name myapp -p 8080:80 nginx
 
 # View logs
 docker logs -f myapp
+```
 
 ### Git Quick Commands
 ```bash
