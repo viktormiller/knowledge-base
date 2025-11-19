@@ -16,7 +16,8 @@ SELECT id FROM table_name INTO OUTFILE ‘/tmp/output.txt’;
 SELECT id FROM table_name INTO OUTFILE ‘/tmp/output.txt’ FIELDS TERMINATED BY ‘,’ ENCLOSED BY ‘“’ LINES TERMINATED BY ‘\n’;
 ```
 
-Important: 
+Important:
+
 - The MySQL server must have write permissions for the directory 
 - The path must be absolute
 - The file must not already exist
@@ -33,7 +34,8 @@ mysql -u username -p -D database_name -e “SELECT id FROM table_name;” > outp
 mysql -u username -p -D database name -N -B -e “SELECT id FROM table_name;” > output.txt
 ```
 
-Options: 
+Options:
+
 - `-N` : No column headers
 - `-B` : Batch mode (tab-separated)
 
